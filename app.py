@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    reurn "Autocommit Test 303  PaaS!"
+    return "Autocommit Test 303  PaaS!"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
